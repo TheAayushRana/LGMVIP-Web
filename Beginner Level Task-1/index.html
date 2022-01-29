@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Beginner Level Task</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">BUISO</div>
+        <div class="menu">
+        <ul class="dis-flex" id="show">
+            <li><a href="#home"> Home</a></li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#services"> Services</a></li>
+            <li><a href="#portfolio"> Portfolio</a></li>
+            <li><a href="#blog"> Blog</a></li>
+            <li><a href="#contact"> Contact</a></li>
+        </ul>    
+        </div>
+        <button class="book-btn">Book Appointment</button>
+        <input type="checkbox" id="check" onclick="myFunction()">
+        <label for="check" class="checkbtn"> <i class="fas fa-bars"></i></label>
+
+    </nav> 
+
+    <section class="first-section d-flex" id="home">
+         <div class="left d-flex flex-column">
+            <h1>Together we Explore your Business</h1>
+            <button class="btn btn-danger col-3 ms-9">Get Started</button>
+         </div>
+         <div class="right">
+            <img src="./images/img1.webp" alt="">
+         </div>
+    </section>
+    <section class="second-section d-flex" id="services">
+    	<div class="icon-box">
+    		<img src="./images/icon-1.webp">
+    		<h3>Expert Team</h3>
+    		<p>Talented People</p>
+    	</div>
+    	<div class="icon-box">
+    		<img src="./images/icon-2.webp">
+    		<h3>Business Plan</h3>
+    		<p>Business Strategy</p>
+    	</div>
+    	<div class="icon-box">
+    		<img src="./images/icon-3.webp">
+    		<h3>Intime Service</h3>
+    		<p>Talented People</p>
+    	</div>
+    	<div class="icon-box">
+    		<img src="./images/icon-4.webp">
+    		<h3>Quick Support</h3>
+    		<p>Talented People</p>
+    	</div>
+    </section>
+    <section class="third-section d-flex" id="about">
+    	<div>
+            <img class="img-round" src="./images/about.webp" alt="">
+         </div>
+         <div class="third-sec-right">
+         	<h5>LEARN ABOUT US</h5>
+            <h1 class="title">Best & Creative  <span> Agency </span> for your Company</h1>
+            <p class="third-para">
+            	Most of the most porro quisquam est, qui dolorem are one. ipsum quia dolor sit amet consectetur adipisci velit sed quia.
+            </p>
+            <p>	
+				Best is the most porro quisquam est, qui dolorem are one. porro quis quam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+            </p>
+            <button class="btn btn-danger">Learn More</button>
+         </div>
+    </section>
+
+	<section class="portfolio-section" id="portfolio">
+		<h1 class="title text-center pb-3">MY PORTFOLIO</h1>
+		<div class="portfolio-boxes">
+			<div class="portfolio-box">
+				<img src="./images/portfolio1.webp">
+				<h3>SEO Project</h3>
+			</div>
+			<div class="portfolio-box">
+				<img src="./images/portfolio2.webp">
+				<h3>Project Analysis</h3>
+			</div>
+			<div class="portfolio-box">
+				<img src="./images/portfolio3.webp">
+				<h3>Business Planning</h3>
+			</div>
+		</div>
+	</section>
+
+   <section class="forth-section d-flex">
+         <div class="forth-section-left">
+         	<h5>CLIENTS REVIEW</h5>
+            <h1 class="title">Our Happy <span> Clients </span> says about us</h1>
+            <p>	
+				Best is the most porro quisquam est, qui dolorem are porro quis quam est, qui dolorem ipsum quia dolor sit amet, consectetur
+            </p>
+            <p class="third-para">
+            	Most of the most porro quisquam est, qui dolorem are one. ipsum quia dolor sit amet consectetur adipisci velit sed quia.
+            </p>
+            <button class="btn btn-danger">Learn More</button>
+         </div>
+         <div class="forth-section-right">
+            <img class="img-round" src="./images/client-1.webp" alt="">
+            <img class="img-round client2-img" src="./images/client-2.webp" alt="">
+            <img class="img-round client3-img" src="./images/client-3.webp" alt="">
+         </div>
+    </section> 
+   <section class="newsletter bg-primary d-flex flex-column align-items-center justify-content-center">
+    	<h3 class="text-center w-100 mb-4 text-white fs-1 title">Newsletter Signup</h3>
+    	<div class="newsletter-body d-flex">
+    		<input style="width: 255px" type="email" name="email">
+    		<button class="btn btn-warning ms-3">SIGNUP</button>
+    	</div>
+    	
+    </section>
+    <section class="blog-section pt-1" id="blog">
+    	<h1 class="text-center title w-100 pb-4">OUR BLOG</h1>
+    	<div class="blogs d-flex">
+	        <blog>
+	        	<img src="./images/blog1.webp">
+	        	<div class="text-center">
+	        		<h3>Lorem ipsum dolor sit</h3>
+	        		<p>1 Nov 2021</p>
+	        		<p class="px-5"> Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Molestiae perferendis odio modi at alias! Nisi.</p>
+	        		<button class="btn btn-warning">READ MORE</button>
+	        	</div>	
+	        </blog>
+	        <blog>
+	        	<img src="./images/blog2.webp">
+	        	<div class="text-center">
+	        		<h3>Lorem ipsum dolor sit </h3>
+	        		<p>1 Nov 2021</p>
+	        		<p class="px-5"> Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Molestiae perferendis odio modi at alias! Nisi.</p>
+	        		<button class="btn btn-warning">READ MORE</button>
+	        	</div>	
+	        </blog>
+	        <blog>
+	        	<img src="./images/blog1.webp">
+	        	<div class="text-center">
+	        		<h3>Lorem ipsum dolor sit</h3>
+	        		<p>1 Nov 2021</p>
+	        		<p class="px-5"> Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Molestiae perferendis odio modi at alias! Nisi.</p>
+	        		<button class="btn btn-warning">READ MORE</button>
+	        	</div>	
+	        </blog>
+        </div>
+    </section>
+    <section class="contact-section d-flex" id="contact">
+    	<div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448181.163741622!2d76.81306442366602!3d28.64727993557044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1641379843909!5m2!1sen!2sin" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+         <div class="contact-right-box">
+            <h1 class="title">Contact Us</h1>
+            <form class="contact-form">
+            	<label>NAME</label><br>
+            	<input type="text" name="name"> <br>
+            	<label>EMAIL ADDRESS</label><br>
+            	<input type="email" name="email"><br>
+            	<label>SUBJECT</label><br>
+            	<input type="text" name="subject"><br>
+            	<label>MESSAGE</label><br>
+            	<textarea cols="40px" rows="5px"></textarea>
+            </form>	
+            <button class="btn btn-danger" onclick="submit()">Send</button>
+         </div>
+    </section>
+    <footer class="footer" id="footer">
+    	<table>
+    		<tr>
+    			<th>OFFICE ADDRESS</th>
+    			<th>FOLLOW US</th>
+    			<th>CONTACT US</th>
+			</tr>
+			<tr>
+    			<td>Lorem ipsum dolor</td>
+    			<td><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i></td>
+    			<td>+1234567890</td>
+			</tr>
+			<tr>
+    			<td>Lorem ipsum dolor</td>
+    			<td><i class="fab fa-instagram"></i><i class="fab fa-whatsapp"></i></td>
+    			<td>+1234567890</td>
+			</tr>
+     	</table>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
